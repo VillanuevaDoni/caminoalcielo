@@ -3,7 +3,7 @@ import logoIglesia from "../assets/Logo Color Transpar BG.png";
 
 export default function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
+    <nav className=" navbar navbar-expand-lg navbar-dark bg-dark" >
       <div className="container">
         <NavLink className="navbar-brand" to="/">
           <a className="navbar-brand">

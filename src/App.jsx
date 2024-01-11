@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 //components
 import Navigation from "./components/Navigation";
 

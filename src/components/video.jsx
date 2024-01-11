@@ -1,10 +1,9 @@
-import VideoIglesia from '../assets/iglesiavideo.mov'
-import  '../components.css'
+import  '../css/components.css'
 
-function video() {
+function video(props) {
   return (
     <div className='main'>
-        <video src={VideoIglesia} autoPlay loop muted/>
+        <video src={props.origen} autoPlay loop muted/>
     </div>
   )
 }
