@@ -3,15 +3,15 @@ import logoIglesia from "../assets/Logo Color Transpar BG.png";
 
 export default function Navigation() {
   return (
-    <nav className=" navbar navbar-expand-lg navbar-dark bg-dark" >
+    <nav className=" navbar fixed-top navbar-expand-lg navbar-dark bg-dark  py-3 border-bottom" >
       <div className="container">
         <NavLink className="navbar-brand" to="/">
           <a className="navbar-brand">
             <img
               src={logoIglesia}
               alt="logo iglesia"
-              width="70"
-              height="64"
+              width="60"
+              height="54"
               className="d-inline-block align-text-middle"
             />Iglesia Esperanza de Vida
           </a>

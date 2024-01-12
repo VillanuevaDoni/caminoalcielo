@@ -30,3 +30,13 @@ video{
     /*background-color: rgba(0,0,0,.4);*/
     background-color: #000000cc;
 }
+
+.masthead {
+    height: 75vh;
+    width: 100%;
+    min-height: 500px;
+    background-image: url("../assets//iglesia.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

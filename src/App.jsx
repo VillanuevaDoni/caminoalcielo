@@ -14,12 +14,13 @@ import Ministerios from './views/Ministerios'
 import Noticias from './views/Noticias'
 import QuienesSomos from './views/QuienesSomos'
 import Sirviendo from './views/Sirviendo'
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <BrowserRouter>
       <Navigation />
-      <div className="container">
+      <div>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/contacto" element={<Contacto/>}></Route>
@@ -30,6 +31,7 @@ function App() {
           <Route path="/sirviendo" element={<Sirviendo/>} />
         </Routes>
       </div>
+      <Footer/>
     </BrowserRouter>
   );
 }
