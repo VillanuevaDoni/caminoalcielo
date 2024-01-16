@@ -85,18 +85,18 @@ function QuienesSomos() {
 
     <div className="container">
       <div className="card">
-        <div className="card-header">
-        <h5 className="card-title display-3 fw-bold">Pastores</h5>
-        </div>
+        {/* <div className="card-header"> */}
+        <h5 className="card-title p-4 display-4 fw-bold">Pastores</h5>
+        {/* </div> */}
         <div className="card-body">
           
-          <p className="card-text fs-3 text-muted">
+          <p className="card-text fs-4 text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo iure saepe, magnam eligendi sequi quas provident rem expedita culpa ut reiciendis vero at, quos quibusdam dolorum dolores ab ipsam.
           </p>
         </div>
         <img  src={ImgPastor}  className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
               alt="pastor"
-              width="600"
+              width="500"
               height="400"
               loading="lazy"/>
         <div className="d-grid gap-2 d-md-flex justify-content-md-center p-4">

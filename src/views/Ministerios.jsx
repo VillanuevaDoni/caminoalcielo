@@ -6,7 +6,8 @@ import ImgAlabanza from '../assets/alabanza.jpg'
 function Ministerios() {
   return (
     <div className="container py-5">
-      <div className="row g-5">
+      <h2 className="display-5 text-body-emphasis lh-1 mb-3 border-bottom">Ministerios</h2>
+      <div className="row g-5 py-5">
         <div className="col-md-4">
           <div className="card h-100">
             <img
