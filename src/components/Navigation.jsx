@@ -3,10 +3,10 @@ import logoIglesia from "../assets/Logo Color Transpar BG.png";
 
 export default function Navigation() {
   return (
-    <nav className=" navbar fixed-top navbar-expand-lg navbar-dark bg-dark  py-3 border-bottom" >
+    <nav className=" navbar sticky-top navbar-expand-lg navbar-dark bg-dark  py-3 border-bottom border-success border-2" >
       <div className="container">
         <NavLink className="navbar-brand" to="/">
-          <a className="navbar-brand">
+          {/* <a className="navbar-brand"> */}
             <img
               src={logoIglesia}
               alt="logo iglesia"
@@ -14,7 +14,7 @@ export default function Navigation() {
               height="54"
               className="d-inline-block align-text-middle"
             />Iglesia Esperanza de Vida
-          </a>
+          {/* </a> */}
         </NavLink>
         <button
           className="navbar-toggler"
