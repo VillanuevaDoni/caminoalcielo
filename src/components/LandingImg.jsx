@@ -1,4 +1,5 @@
 import "../css/components.css";
+import {Link} from 'react-router-dom'
 
 function LandingImg(props) {
     
@@ -18,9 +19,9 @@ function LandingImg(props) {
               Porque para Dios no hay nada imposible.<p>Lucas 1:37</p>
               </p>
               <p className="lead">
-                <a className="btn btn-warning btn-lg" href="#" role="button">
+                <Link className="btn btn-warning btn-lg" to="/quienesSomos" role="button">
                   Empezar
-                </a>
+                </Link>
               </p>
             </div>            
           </div>

@@ -1,7 +1,10 @@
+import ImageGallery from '../components/Galeriacomp'
 
 function Galeria() {
   return (
-    <div><h1>Galeria</h1></div>
+    <div className="container py-5">
+      <ImageGallery/>
+    </div>
   )
 }
 

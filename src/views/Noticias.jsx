@@ -1,7 +1,10 @@
+import Listgrpup from '../components/Listgroup'
 
 function Noticias() {
   return (
-    <div><h1>noticias</h1></div>
+    <div className='container py-5'>
+        <Listgrpup/>
+      </div>
   )
 }
 
