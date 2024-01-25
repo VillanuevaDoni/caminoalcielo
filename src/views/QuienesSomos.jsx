@@ -2,12 +2,13 @@ import ImgQuienesomos from "../assets/quienes somos.jpg";
 import CreemosBiblia from "../assets/creemos-biblia.jpg";
 import ImgPastor from "../assets/pastor.jpg"
 
+
 function QuienesSomos() {
   return (
     <div className="container-fluid p-4">
-      <div className="container col-xxl-8 px-4 py-5">
+      <div   className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
-          <div className="col-10 col-sm-8 col-lg-6">
+          <div data-aos="fade-up" className="col-10 col-sm-8 col-lg-6">
             <img
               src={ImgQuienesomos}
               className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
@@ -17,7 +18,7 @@ function QuienesSomos() {
               loading="lazy"
             />
           </div>
-          <div className="col-lg-6">
+          <div  className="col-lg-6">
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
               Quienes somos
             </h1>
@@ -70,7 +71,7 @@ function QuienesSomos() {
               {/* <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button> */}
             </div>
           </div>
-          <div className="col-10 col-sm-8 col-lg-6">
+          <div data-aos="fade-up" className="col-10 col-sm-8 col-lg-6">
             <img
               src={CreemosBiblia}
               className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
