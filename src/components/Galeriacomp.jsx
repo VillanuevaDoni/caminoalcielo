@@ -1,6 +1,6 @@
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-// import fs from 'node:fs';
+import Church1 from '/church1.jpg'
 
 function Galeriacomp() {
 
@@ -11,8 +11,8 @@ function Galeriacomp() {
 
   const images = [
     {
-      original: "/church1.jpg",
-      thumbnail: "/church1.jpg",
+      original: {Church1},
+      thumbnail: {Church1},
       originalHeight: "1000",
       originalWidth: "600",
       thumbnailHeight: "75",
