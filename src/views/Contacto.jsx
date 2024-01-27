@@ -1,10 +1,17 @@
 import ImgMapsIglesia from '../assets/maps iglesia.png'
 import Contact from '../components/ContactCmp'
+import AOS from "aos";
+import {useEffect} from 'react'
 
 function Contacto() {
+
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  })
+
   return (
     <div className="container p-4 py-5">
-      <div className="container col-xxl-8 px-4 py-5">
+      <div data-aos="fade-up" className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
           <div className="col-10 col-sm-8 col-lg-6">
           <a href="https://www.google.com/maps/place/Damascus+Friends+Church+Salem+Campus/@40.8899317,-80.8389469,17z/data=!3m1!4b1!4m6!3m5!1s0x8836aaeee8f0f6fb:0x5a4e47fff260f40c!8m2!3d40.8899317!4d-80.8389469!16s%2Fg%2F1tw_nxvd?entry=ttu" target="_blank" rel="noopener noreferrer">

@@ -1,15 +1,21 @@
 import ImgQuienesomos from "../assets/quienes somos.jpg";
 import CreemosBiblia from "../assets/creemos-biblia.jpg";
 import ImgPastor from "../assets/pastor.jpg"
-
+import AOS from "aos";
+import {useEffect} from 'react'
 
 function QuienesSomos() {
+
+useEffect(()=>{
+  AOS.init({duration:2000});
+})
+
   return (
     <div className="container-fluid p-4">
-      <div   className="container col-xxl-8 px-4 py-5">
+      <div data-aos="fade-up" className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
-          <div data-aos="fade-up" className="col-10 col-sm-8 col-lg-6">
-            <img
+          <div data-aos="fade-right" className="col-10 col-sm-8 col-lg-6">
+            <img 
               src={ImgQuienesomos}
               className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
               alt="quienes somos"
@@ -18,12 +24,12 @@ function QuienesSomos() {
               loading="lazy"
             />
           </div>
-          <div  className="col-lg-6">
-            <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+          <div className="col-lg-6">
+            <h1 data-aos="fade-up" className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
               Quienes somos
             </h1>
             <hr />
-            <p className="lead">
+            <p data-aos="fade-right" className="lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
               autem officiis beatae vero enim sequi magni possimus quasi
               praesentium inventore omnis repudiandae dolor ratione eaque
@@ -45,14 +51,14 @@ function QuienesSomos() {
         </div>
       </div>
 
-      <div className="container col-xxl-8 px-4 py-5">
+      <div data-aos="fade-up" className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
-          <div className="col-lg-6">
-            <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+          <div  className="col-lg-6">
+            <h1 data-aos="fade-up" className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
               En que creemos
             </h1>
             <hr />
-            <p className="lead">
+            <p data-aos="fade-right" className="lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
               autem officiis beatae vero enim sequi magni possimus quasi
               praesentium inventore omnis repudiandae dolor ratione eaque
@@ -71,8 +77,8 @@ function QuienesSomos() {
               {/* <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button> */}
             </div>
           </div>
-          <div data-aos="fade-up" className="col-10 col-sm-8 col-lg-6">
-            <img
+          <div  data-aos="fade-right" className="col-10 col-sm-8 col-lg-6">
+            <img 
               src={CreemosBiblia}
               className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
               alt="en que creemos"
@@ -84,23 +90,23 @@ function QuienesSomos() {
         </div>
       </div>
 
-    <div className="container">
-      <div className="card">
+    <div data-aos="fade-up" className="container">
+      <div  className="card">
         {/* <div className="card-header"> */}
-        <h5 className="card-title p-4 display-4 fw-bold">Pastores</h5>
+        <h5 data-aos="fade-up"  className="card-title p-4 display-4 fw-bold">Pastores</h5>
         {/* </div> */}
-        <div className="card-body">
+        <div  className="card-body">
           
-          <p className="card-text fs-4 text-muted">
+          <p data-aos="fade-right" className="card-text fs-4 text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo iure saepe, magnam eligendi sequi quas provident rem expedita culpa ut reiciendis vero at, quos quibusdam dolorum dolores ab ipsam.
           </p>
         </div>
-        <img  src={ImgPastor}  className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
+        <img data-aos="fade-right" src={ImgPastor}  className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
               alt="pastor"
               width="500"
               height="400"
               loading="lazy"/>
-        <div className="d-grid gap-2 d-md-flex justify-content-md-center p-4">
+        <div  className="d-grid gap-2 d-md-flex justify-content-md-center p-4">
               <button type="button" className="btn btn-outline-secondary btn-lg px-4">Ver más...</button>
             </div>
       </div>

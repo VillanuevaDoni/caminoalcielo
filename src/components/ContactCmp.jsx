@@ -2,9 +2,15 @@ import ContactLogo from "../components/ContactLogo";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import swal from 'sweetalert'
+import AOS from "aos";
+import {useEffect} from 'react'
 
 function ContactCmp() {
 
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  })
+  
   const form = useRef();
   const nameref = useRef();
   const emailref = useRef();
@@ -41,7 +47,7 @@ function ContactCmp() {
 
   return (
     <div className="container row p-5  rounded-3">
-      <div className="col-md-7 p-2">
+      <div data-aos="fade-up" className="col-md-7 p-2">
         <form ref={form} onSubmit={sendEmail}>
           <div className="form-group py-2">
             {/* <label htmlFor="exampleFormControlInput1">Nombre</label> */}
@@ -87,7 +93,7 @@ function ContactCmp() {
         </form>
       </div>
       {/* col-md-5 p-3 */}
-      <div className="col-5 col-sm-5 col-lg-5 py-5">
+      <div data-aos="fade-up" className="col-5 col-sm-5 col-lg-5 py-5">
         {/* <p className="display-2 text-center">Nos gustaria escucharte</p> */}
         <svg width={500} height={300}>
           <ContactLogo />

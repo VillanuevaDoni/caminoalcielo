@@ -3,13 +3,18 @@ import Bautizo from "../assets/bautizo.jpeg";
 import Camping from "../assets/camping.jpg";
 import Futbol from "../assets/futbol.jpg";
 import {format} from "timeago.js";
+import AOS from "aos";
+import {useEffect} from 'react'
 
 function Listgroup() {
 
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  })
 
   return (
     <div className="row">
-      <div
+      <div data-aos="fade-up" 
         id="list-example"
         className="list-group list-group-flush col-4"
         style={{ position: "relative" }}
@@ -56,7 +61,7 @@ function Listgroup() {
         </a>
       </div>
 
-      <div
+      <div data-aos="fade-up" 
         data-bs-spy="scroll"
         data-bs-target="#list-example"
         data-bs-offset="0"
