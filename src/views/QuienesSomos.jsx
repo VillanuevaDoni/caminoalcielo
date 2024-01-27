@@ -14,7 +14,7 @@ useEffect(()=>{
     <div className="container-fluid p-4">
       <div data-aos="fade-up" className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
-          <div data-aos="fade-right" className="col-10 col-sm-8 col-lg-6">
+          <div data-aos="fade-up" className="col-10 col-sm-8 col-lg-6">
             <img 
               src={ImgQuienesomos}
               className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
@@ -29,7 +29,7 @@ useEffect(()=>{
               Quienes somos
             </h1>
             <hr />
-            <p data-aos="fade-right" className="lead">
+            <p data-aos="fade-up" className="lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
               autem officiis beatae vero enim sequi magni possimus quasi
               praesentium inventore omnis repudiandae dolor ratione eaque
@@ -58,7 +58,7 @@ useEffect(()=>{
               En que creemos
             </h1>
             <hr />
-            <p data-aos="fade-right" className="lead">
+            <p data-aos="fade-up" className="lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
               autem officiis beatae vero enim sequi magni possimus quasi
               praesentium inventore omnis repudiandae dolor ratione eaque
@@ -77,7 +77,7 @@ useEffect(()=>{
               {/* <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button> */}
             </div>
           </div>
-          <div  data-aos="fade-right" className="col-10 col-sm-8 col-lg-6">
+          <div  data-aos="fade-up" className="col-10 col-sm-8 col-lg-6">
             <img 
               src={CreemosBiblia}
               className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
@@ -97,11 +97,11 @@ useEffect(()=>{
         {/* </div> */}
         <div  className="card-body">
           
-          <p data-aos="fade-right" className="card-text fs-4 text-muted">
+          <p data-aos="fade-up" className="card-text fs-4 text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo iure saepe, magnam eligendi sequi quas provident rem expedita culpa ut reiciendis vero at, quos quibusdam dolorum dolores ab ipsam.
           </p>
         </div>
-        <img data-aos="fade-right" src={ImgPastor}  className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
+        <img data-aos="fade-up" src={ImgPastor}  className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
               alt="pastor"
               width="500"
               height="400"

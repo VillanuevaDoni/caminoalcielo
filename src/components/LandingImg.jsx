@@ -12,16 +12,16 @@ function LandingImg() {
   return (
     <div>
       {/* <img src={props.origen} alt="iglesia" className="masthead" /> */}
-      <header className="masthead">
+      <header data-aos="fade-up" className="masthead">
         <div className="container h-100">
           <div className="row h-100 align-items-center">
             <div className="col-12 text-center text-light">
-              <h1 data-aos="flip-down" className="display-1 fw-bold">
+              <h1 data-aos="fade-up" className="display-1 fw-bold">
                 Bienvenido
               </h1>
-              <p data-aos="fade-up-right" className="lead">IGLESIA ESPERANZA DE VIDA</p>
+              <p data-aos="fade-up" className="lead">IGLESIA ESPERANZA DE VIDA</p>
               <hr className="my-4 text-light" />
-              <p data-aos="fade-up-right" className="text-light fs-2">
+              <p data-aos="fade-up" className="text-light fs-2">
               Porque para Dios no hay nada imposible.<p>Lucas 1:37</p>
               </p>
               <p className="lead">

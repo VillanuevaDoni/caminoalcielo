@@ -17,7 +17,7 @@ function Ministerios() {
       <h2 data-aos="fade-up" className="display-5 text-body-emphasis lh-1 mb-3 border-bottom">
         Ministerios
       </h2>
-      <div data-aos="fade-left" className="row g-5 py-5">
+      <div data-aos="fade-up" className="row g-5 py-5">
         <MinisteriosCard
           Img={ImgKids}
           Title="Ninos"
