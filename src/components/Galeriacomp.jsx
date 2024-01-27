@@ -1,55 +1,57 @@
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import Church1 from '/church1.jpg'
+import Church1 from "../assets/church1.jpg";
+import Church2 from "../assets/church2.jpg";
+import Church3 from "../assets/church3.jpg";
+import Church4 from "../assets/church4.jpg";
+import Church5 from "../assets/church5.jpg";
 
 function Galeriacomp() {
+  // const files = fs.readdirSync('/public') ;
 
-
-// const files = fs.readdirSync('/public') ;
-
-// console.log(files);
+  // console.log(files);
 
   const images = [
     {
-      original: {Church1},
-      thumbnail: {Church1},
+      original: { Church1 },
+      thumbnail: { Church1 },
       originalHeight: "1000",
       originalWidth: "600",
       thumbnailHeight: "75",
       thumbnailWidth: "150",
     },
     {
-        original: "/church2.jpg",
-        thumbnail: "/church2.jpg",
-        originalHeight: "1000",
-        originalWidth: "600",
-        thumbnailHeight: "75",
-        thumbnailWidth: "150",
-      },
-      {
-        original: "/church3.jpg",
-        thumbnail: "/church3.jpg",
-        originalHeight: "1000",
-        originalWidth: "600",
-        thumbnailHeight: "75",
-        thumbnailWidth: "150",
-      },
-      {
-        original: "/church4.jpg",
-        thumbnail: "/church4.jpg",
-        originalHeight: "1000",
-        originalWidth: "600",
-        thumbnailHeight: "75",
-        thumbnailWidth: "150",
-      },
-      {
-        original: "/church5.jpg",
-        thumbnail: "/church5.jpg",
-        originalHeight: "1000",
-        originalWidth: "600",
-        thumbnailHeight: "75",
-        thumbnailWidth: "150",
-      },
+      original: { Church2 },
+      thumbnail: { Church2 },
+      originalHeight: "1000",
+      originalWidth: "600",
+      thumbnailHeight: "75",
+      thumbnailWidth: "150",
+    },
+    {
+      original: { Church3 },
+      thumbnail: { Church3 },
+      originalHeight: "1000",
+      originalWidth: "600",
+      thumbnailHeight: "75",
+      thumbnailWidth: "150",
+    },
+    {
+      original: { Church4 },
+      thumbnail: { Church4 },
+      originalHeight: "1000",
+      originalWidth: "600",
+      thumbnailHeight: "75",
+      thumbnailWidth: "150",
+    },
+    {
+      original: { Church5 },
+      thumbnail: { Church5 },
+      originalHeight: "1000",
+      originalWidth: "600",
+      thumbnailHeight: "75",
+      thumbnailWidth: "150",
+    },
   ];
 
   return (
