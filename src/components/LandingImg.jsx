@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import AOS from "aos";
 import {useEffect} from 'react'
 
-function LandingImg(props) {
+function LandingImg() {
     
   useEffect(()=>{
     AOS.init({duration:2000});
