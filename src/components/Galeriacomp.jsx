@@ -11,7 +11,7 @@ function Galeriacomp() {
 
   const images = [
     {
-      original: "/public/church1.jpg",
+      original: "/church1.jpg",
       thumbnail: "/church1.jpg",
       originalHeight: "1000",
       originalWidth: "600",
@@ -19,7 +19,7 @@ function Galeriacomp() {
       thumbnailWidth: "150",
     },
     {
-        original: "/public/church2.jpg",
+        original: "/church2.jpg",
         thumbnail: "/church2.jpg",
         originalHeight: "1000",
         originalWidth: "600",
@@ -27,7 +27,7 @@ function Galeriacomp() {
         thumbnailWidth: "150",
       },
       {
-        original: "/public/church3.jpg",
+        original: "/church3.jpg",
         thumbnail: "/church3.jpg",
         originalHeight: "1000",
         originalWidth: "600",
@@ -35,7 +35,7 @@ function Galeriacomp() {
         thumbnailWidth: "150",
       },
       {
-        original: "/public/church4.jpg",
+        original: "/church4.jpg",
         thumbnail: "/church4.jpg",
         originalHeight: "1000",
         originalWidth: "600",
@@ -43,7 +43,7 @@ function Galeriacomp() {
         thumbnailWidth: "150",
       },
       {
-        original: "/public/church5.jpg",
+        original: "/church5.jpg",
         thumbnail: "/church5.jpg",
         originalHeight: "1000",
         originalWidth: "600",
