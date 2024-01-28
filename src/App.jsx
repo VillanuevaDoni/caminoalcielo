@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 import "aos/dist/aos.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 
 //components
 import Navigation from "./components/Navigation";
@@ -22,8 +22,8 @@ function App() {
       <Navigation />
       <div>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contacto" element={<Contacto />}></Route>
+          <Route path="/websiteEsperanzadeVida" element={<Home />} />
+          <Route path="/contacto" element={<Contacto />}/>
           <Route path="/galeria" element={<Galeria />} />
           <Route path="/ministerios" element={<Ministerios />} />
           <Route path="/noticias" element={<Noticias />} />
