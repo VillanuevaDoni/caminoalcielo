@@ -1,52 +1,45 @@
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import Church1 from "../assets/church1.jpg";
-import Church2 from "../assets/church2.jpg";
-import Church3 from "../assets/church3.jpg";
-import Church4 from "../assets/church4.jpg";
-import Church5 from "../assets/church5.jpg";
+
 
 function Galeriacomp() {
-  // const files = fs.readdirSync('/public') ;
 
-  // console.log(files);
-
-  const images = [
+  const Images = [
     {
-      original: { Church1 },
-      thumbnail: { Church1 },
+      original: "../assets/Church.jpg",
+      thumbnail: "../assets/Church.jpg",
       originalHeight: "1000",
       originalWidth: "600",
       thumbnailHeight: "75",
       thumbnailWidth: "150",
     },
     {
-      original: { Church2 },
-      thumbnail: { Church2 },
+      original: "/Church2.jpg",
+      thumbnail: "/Church2.jpg",
       originalHeight: "1000",
       originalWidth: "600",
       thumbnailHeight: "75",
       thumbnailWidth: "150",
     },
     {
-      original: { Church3 },
-      thumbnail: { Church3 },
+      original: "/Church3.jpg",
+      thumbnail: "/Church3.jpg",
       originalHeight: "1000",
       originalWidth: "600",
       thumbnailHeight: "75",
       thumbnailWidth: "150",
     },
     {
-      original: { Church4 },
-      thumbnail: { Church4 },
+      original: "/Church4.jpg",
+      thumbnail: "/Church4.jpg",
       originalHeight: "1000",
       originalWidth: "600",
       thumbnailHeight: "75",
       thumbnailWidth: "150",
     },
     {
-      original: { Church5 },
-      thumbnail: { Church5 },
+      original: "/Church5.jpg",
+      thumbnail: "/Church5.jpg",
       originalHeight: "1000",
       originalWidth: "600",
       thumbnailHeight: "75",
@@ -57,11 +50,10 @@ function Galeriacomp() {
   return (
     <div>
       <ImageGallery
-        items={images}
+        items={Images}
         showBullets={true}
         autoPlay={true}
-        slideDuration={1000}
-      />
+        slideDuration={1000}/>
     </div>
   );
 }
