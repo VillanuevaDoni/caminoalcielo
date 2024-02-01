@@ -1,60 +1,18 @@
-import ImageGallery from "react-image-gallery";
-import "react-image-gallery/styles/css/image-gallery.css";
-
-
-function Galeriacomp() {
-
-  const Images = [
-    {
-      original: "../assets/Church.jpg",
-      thumbnail: "../assets/Church.jpg",
-      originalHeight: "1000",
-      originalWidth: "600",
-      thumbnailHeight: "75",
-      thumbnailWidth: "150",
-    },
-    {
-      original: "/Church2.jpg",
-      thumbnail: "/Church2.jpg",
-      originalHeight: "1000",
-      originalWidth: "600",
-      thumbnailHeight: "75",
-      thumbnailWidth: "150",
-    },
-    {
-      original: "/Church3.jpg",
-      thumbnail: "/Church3.jpg",
-      originalHeight: "1000",
-      originalWidth: "600",
-      thumbnailHeight: "75",
-      thumbnailWidth: "150",
-    },
-    {
-      original: "/Church4.jpg",
-      thumbnail: "/Church4.jpg",
-      originalHeight: "1000",
-      originalWidth: "600",
-      thumbnailHeight: "75",
-      thumbnailWidth: "150",
-    },
-    {
-      original: "/Church5.jpg",
-      thumbnail: "/Church5.jpg",
-      originalHeight: "1000",
-      originalWidth: "600",
-      thumbnailHeight: "75",
-      thumbnailWidth: "150",
-    },
-  ];
-
+function Galeriacomp(props) {
   return (
-    <div>
-      <ImageGallery
-        items={Images}
-        showBullets={true}
-        autoPlay={true}
-        slideDuration={1000}/>
-    </div>
+    <div className="container p-2">
+     
+        <img
+          className="img-fluid rounded-3 shadow-lg"
+          src={props.Img}
+          alt="imagen"
+          width="auto"
+          height="auto"
+          loading="lazy"
+          
+        />
+      
+     </div>
   );
 }
 
