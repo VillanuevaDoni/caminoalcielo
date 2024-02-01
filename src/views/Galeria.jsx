@@ -1,4 +1,4 @@
-import Church from "../assets/Church.jpg";
+import Church from "../assets/Church1.jpg";
 import Church2 from "../assets/Church2.jpg";
 import Church3 from "../assets/Church3.jpg";
 import Church4 from "../assets/Church4.jpg";
