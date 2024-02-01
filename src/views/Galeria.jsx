@@ -34,9 +34,9 @@ function GaleriaChurch() {
           <Galeriacomp Img={Church} />
         </div>
         <div data-aos="fade-right" className="container p-2 col-lg-4">
-          <Galeriacomp Img={Church3} />
-          <Galeriacomp Img={Church4} />
+          <Galeriacomp Img={Church2} />
           <Galeriacomp Img={Church5} />
+          <Galeriacomp Img={Church3} />
         </div>
       </div>
     </div>
