@@ -24,7 +24,7 @@ function GaleriaChurch() {
       </h2>
       <div data-aos="fade-up" className="row g-4 py-5">
         <div data-aos="fade-right" className="container p-2 col-lg-4">
-          <Galeriacomp Img={Church3} />
+          <Galeriacomp Img={Church4} />
           <Galeriacomp Img={Church2} />
           <Galeriacomp Img={Church6} />
         </div>
