@@ -4,6 +4,7 @@ function Galeriacomp(props) {
      
         <img
           className="img-fluid rounded-3 shadow-lg"
+          // eslint-disable-next-line react/prop-types
           src={props.Img}
           alt="imagen"
           width="auto"
