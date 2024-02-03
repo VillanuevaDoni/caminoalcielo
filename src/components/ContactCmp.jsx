@@ -8,7 +8,7 @@ import {useEffect} from 'react'
 function ContactCmp() {
 
   useEffect(()=>{
-    AOS.init({duration:2000});
+    AOS.init({duration:1000});
   })
   
   const form = useRef();
