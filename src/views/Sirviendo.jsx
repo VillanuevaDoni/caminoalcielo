@@ -5,7 +5,7 @@ import {useEffect} from 'react'
 function Sirviendo() {
 
   useEffect(()=>{
-    AOS.init({duration:2000});
+    AOS.init({duration:1000});
   })
   
   return (
@@ -20,7 +20,7 @@ function Sirviendo() {
             Perspiciatis cumque incidunt provident modi esse pariatur unde nihil
             voluptate! Facere architecto quisquam rem pariatur voluptas facilis
             asperiores corporis, magni tempore nam?"
-          Reference="https://www.youtube.com"
+          Reference="https://www.youtube.com"Í
         />
         <SirviendoCard
           Title="Titulo-2"
