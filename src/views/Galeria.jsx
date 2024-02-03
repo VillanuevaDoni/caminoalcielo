@@ -1,9 +1,9 @@
-import Church from "../assets/Church1.jpg";
-import Church2 from "../assets/Church2.jpg";
-import Church3 from "../assets/Church3.jpg";
-import Church4 from "../assets/Church4.jpg";
-import Church5 from "../assets/Church5.jpg";
-import Church6 from "../assets/Church6.jpg";
+import Church1 from "../public/Church1.jpg";
+import Church2 from "../public/Church2.jpg";
+import Church3 from "../public/Church3.jpg";
+import Church4 from "../public/Church4.jpg";
+import Church5 from "../public/Church5.jpg";
+import Church6 from "../public/Church6.jpg";
 
 import Galeriacomp from "../components/Galeriacomp";
 import AOS from "aos";
@@ -29,9 +29,9 @@ function GaleriaChurch() {
           <Galeriacomp Img={Church6} />
         </div>
         <div data-aos="fade-left" className="container p-2 col-lg-4">
-          <Galeriacomp Img={Church} />
+          <Galeriacomp Img={Church1} />
           <Galeriacomp Img={Church3} />
-          <Galeriacomp Img={Church} />
+          <Galeriacomp Img={Church1} />
         </div>
         <div data-aos="fade-right" className="container p-2 col-lg-4">
           <Galeriacomp Img={Church2} />
