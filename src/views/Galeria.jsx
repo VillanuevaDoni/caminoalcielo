@@ -18,7 +18,7 @@ function GaleriaChurch() {
     <div className="container py-5">
       <h2
         data-aos="fade-up"
-        className="display-5 text-body-emphasis lh-1 mb-3 border-bottom"
+        className="fw-bold display-5 text-body-emphasis lh-1 mb-3 border-bottom"
       >
         Galería
       </h2>

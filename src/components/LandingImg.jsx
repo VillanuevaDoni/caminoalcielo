@@ -22,7 +22,7 @@ function LandingImg() {
               <p  className="lead">IGLESIA ESPERANZA DE VIDA</p>
               <hr className="my-4 text-light" />
               <p  className="text-light fs-2">
-              Porque para Dios no hay nada imposible.<p>Lucas 1:37</p>
+              Conocer a Dios, compartir vida, servir a otros.
               </p>
               <p className="lead">
                 <Link className="btn btn-warning btn-lg" to="/quienesSomos" role="button">

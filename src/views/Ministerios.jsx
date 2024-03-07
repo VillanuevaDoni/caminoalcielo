@@ -14,7 +14,7 @@ function Ministerios() {
 
   return (
     <div  className="container py-5">
-      <h2 data-aos="fade-up" className="display-5 text-body-emphasis lh-1 mb-3 border-bottom">
+      <h2 data-aos="fade-up" className=" fw-bold display-5 text-body-emphasis lh-1 mb-3 border-bottom" >
         Ministerios
       </h2>
       <div data-aos="fade-up" className="row g-5 py-5">

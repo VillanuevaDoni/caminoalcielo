@@ -31,7 +31,12 @@ export default function Navigation() {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
               <NavLink className="nav-link" to="/quienesSomos">
-                Quienes somos
+                Quiénes somos
+              </NavLink>
+            </li>
+            <li className="nav-item active">
+              <NavLink className="nav-link" to="/queCreemos">
+                En qué creemos
               </NavLink>
             </li>
             <li className="nav-item">

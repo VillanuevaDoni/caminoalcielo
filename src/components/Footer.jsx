@@ -32,7 +32,7 @@ function Footer() {
         <div className="col-md-4 d-flex align-items-center">
           <span className="mb-3 mb-md-0 text-muted">
             <p className="fw-bold">Contactanos:</p>
-            <p>Correo electrónico: correo@ejemplo.com</p>
+            <p>Correo electrónico:  esperanzadevidaohio@gmail.com</p>
             <p>Teléfono: 234 567-5790</p>
             <p>Dirección: 1300 Franklin Ave, Salem, OH 44460</p>
           </span>

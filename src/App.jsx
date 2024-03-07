@@ -13,6 +13,7 @@ import Galeria from "./views/Galeria";
 import Ministerios from "./views/Ministerios";
 import Noticias from "./views/Noticias";
 import QuienesSomos from "./views/QuienesSomos";
+import EnQueCreemos from "./views/EnQueCreemos";
 import Sirviendo from "./views/Sirviendo";
 import Footer from "./components/Footer";
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/ministerios" element={<Ministerios />} />
           <Route path="/noticias" element={<Noticias />} />
           <Route path="/quienesSomos" element={<QuienesSomos />} />
+          <Route path="/queCreemos" element={<EnQueCreemos />} />
           <Route path="/sirviendo" element={<Sirviendo />} />
         </Routes>
       </div>

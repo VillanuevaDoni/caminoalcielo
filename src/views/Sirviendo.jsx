@@ -10,7 +10,7 @@ function Sirviendo() {
   
   return (
     <div data-aos="fade-up"  className="container px-4 py-5" id="featured-3">
-      <h2 className="display-5 text-body-emphasis lh-1 mb-3 border-bottom">
+      <h2 className="fw-bold display-5 text-body-emphasis lh-1 mb-3 border-bottom">
         Sirviendo a otros
       </h2>
       <div data-aos="fade-up"  className="row g-4 py-5 row-cols-1 row-cols-lg-3">
