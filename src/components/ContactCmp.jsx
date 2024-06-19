@@ -86,7 +86,7 @@ function ContactCmp() {
           </div>
 
           <div className="form-group py-3">
-            <button type="submit" value="send" className="btn btn-dark btn-lg">
+            <button type="submit" value="send" className="btn btn-primary btn-lg">
               Enviar mensaje
             </button>
           </div>

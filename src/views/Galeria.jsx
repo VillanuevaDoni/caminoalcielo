@@ -12,15 +12,15 @@ import { useEffect } from "react";
 function GaleriaChurch() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
+    window.scroll(0,0)
   });
 
   return (
     <div className="container py-5">
       <h2
         data-aos="fade-up"
-        className="fw-bold display-5 text-body-emphasis lh-1 mb-3 border-bottom"
-      >
-        Galería
+        className="fw-bold display-5 text-primary-emphasis text-opacity-75 lh-1 mb-3 border-bottom"
+      > Galería
       </h2>
       <div data-aos="fade-right" className="row g-4 py-5">
         <div  className="container p-2 col-lg-4">

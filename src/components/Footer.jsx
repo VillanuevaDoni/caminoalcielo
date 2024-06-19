@@ -1,7 +1,8 @@
-import logoIglesia from "../assets/Logo Color Transpar BG.png";
+import logoIglesia from "../assets/IglesiaLA.png";
 import FacebookLogo from "../components/FacebookLogo";
 import InstagramLogo from "../components/InstagramLogo";
 import TwitterLogo from "../components/TwitterLogo";
+import YoutubeLogo from '../components/YoutubeLogo'
 
 function Footer() {
   return (
@@ -32,14 +33,21 @@ function Footer() {
         <div className="col-md-4 d-flex align-items-center">
           <span className="mb-3 mb-md-0 text-muted">
             <p className="fw-bold">Contactanos:</p>
-            <p>Correo electrónico:  esperanzadevidaohio@gmail.com</p>
-            <p>Teléfono: 234 567-5790</p>
-            <p>Dirección: 1300 Franklin Ave, Salem, OH 44460</p>
+            {/* <p>Correo electrónico:  esperanzadevidaohio@gmail.com</p> */}
+            <p>Teléfonos: (818) 915-4640 / (818) 915-1599</p>
+            <p>Dirección: 14042 Vanowen St. Van Nuys, CA 91405</p>
           </span>
         </div>
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li className="ms-3">
+            <a className="text-muted" href="http://www.youtube.com/@ministeriopentecostescamin4722" target="_blank" rel="noopener noreferrer">
+              <svg className="bi" width="44" height="44">
+                <YoutubeLogo />
+              </svg>
+            </a>
+          </li>
           <li className="ms-3">
-            <a className="text-muted" href="https://www.facebook.com/manuel.pastoresperanzadevida" target="_blank" rel="noopener noreferrer">
+            <a className="text-muted" href="#">
               <svg className="bi" width="44" height="44">
                 <FacebookLogo />
               </svg>

@@ -6,6 +6,7 @@ function QuienesSomos() {
 
 useEffect(()=>{
   AOS.init({duration:1000});
+  window.scroll(0,0)
 })
 
   return (
@@ -13,7 +14,7 @@ useEffect(()=>{
       <div data-aos="fade-up" className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
           <div className="col-lg-6">
-            <h1 data-aos="fade-up" className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            <h1 data-aos="fade-up" className="display-5 fw-bold text-primary-emphasis text-opacity-75 lh-1 mb-3">
               Quiénes somos
             </h1>
             <hr />

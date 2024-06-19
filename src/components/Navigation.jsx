@@ -1,19 +1,19 @@
 import { NavLink } from "react-router-dom";
-import logoIglesia from "../assets/Logo Color Transpar BG.png";
+import logoIglesia from "../assets/IglesiaLA.png";
 
 export default function Navigation() {
   return (
-    <nav className=" navbar sticky-top navbar-expand-lg navbar-dark bg-dark  py-3 border-bottom border-success border-2" >
+    <nav className=" navbar sticky-top navbar-expand-lg navbar-light bg-light py-3 border-bottom border-secondary border-2" >
       <div className="container">
-        <NavLink className="navbar-brand" to="/websiteEsperanzadeVida">
+        <NavLink className="navbar-brand" to="/caminoalcielo">
           {/* <a className="navbar-brand"> */}
             <img
               src={logoIglesia}
               alt="logo iglesia"
               width="60"
-              height="54"
-              className="d-inline-block align-text-middle"
-            />Iglesia Esperanza de Vida
+              height="55"
+              className="d-inline-block align-text-middle p-1 "
+            />Ministerios de Jesucristo Camino al Cielo
           {/* </a> */}
         </NavLink>
         <button
@@ -30,40 +30,41 @@ export default function Navigation() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-              <NavLink className="nav-link" to="/quienesSomos">
+              <NavLink className="nav-link active" to="/quienesSomos">
                 Quiénes somos
               </NavLink>
             </li>
             <li className="nav-item active">
-              <NavLink className="nav-link" to="/queCreemos">
+              <NavLink className="nav-link active" to="/queCreemos">
                 En qué creemos
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contacto">
+              <NavLink className="nav-link active" to="/contacto">
+                Servicios
+              </NavLink>
+            </li>
+           {/* <li className="nav-item"> 
+             <NavLink className="nav-link" to="/noticias">
+                Noticias
+              </NavLink>
+            </li>*/}
+            <li className="nav-item">
+              <NavLink className="nav-link active" to="/ministerios">
+                Enseñanzas
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link active" to="/sirviendo">
                 Contacto
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/noticias">
-                Noticias
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/sirviendo">
-                Sirviendo a otros
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/ministerios">
-                Ministerios
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/galeria">
+              <NavLink className="nav-link active" to="/galeria">
                 Galeria
               </NavLink>
             </li>
+        
           </ul>
         </div>
       </div>

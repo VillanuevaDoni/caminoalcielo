@@ -15,17 +15,17 @@ function LandingImg() {
       <header data-aos="fade-up" className="masthead">
         <div className="container h-100">
           <div className="row h-100 align-items-center">
-            <div data-aos="fade-right" className="col-12 text-center text-light">
-              <h1  className="display-1 fw-bold">
+            <div data-aos="fade-right" className="col-12 text-left text-dark">
+              <h1  className="display-1 fw-bold" >
                 Bienvenido
               </h1>
-              <p  className="lead">IGLESIA ESPERANZA DE VIDA</p>
-              <hr className="my-4 text-light" />
-              <p  className="text-light fs-2">
+              <p  className="lead">IGLESIA MINISTERIOS DE JESUCRISTO CAMINO AL CIELO</p>
+              <hr className="my-4 text-dark" />
+              <p  className="text-dark fs-2">
               Conocer a Dios, compartir vida, servir a otros.
               </p>
               <p className="lead">
-                <Link className="btn btn-warning btn-lg" to="/quienesSomos" role="button">
+                <Link className="btn btn-primary btn-lg" to="/quienesSomos" role="button">
                   Empezar
                 </Link>
               </p>

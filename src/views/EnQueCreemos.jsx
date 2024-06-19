@@ -3,7 +3,7 @@ import AOS from "aos";
 import {useEffect} from 'react'
 //Imported Images
 import EspirituSanto from "../assets/espirituSanto.jpg";
-import ImgQuienesomos from "../assets/quienes somos.jpg";
+//import ImgQuienesomos from "../assets/quienes somos.jpg";
 import Humanidad from '../assets/Humanidad2.jpg'
 import EventosFinales from '../assets/Salvacion2.jpg'
 import Biblia from '../assets/Biblia.jpg'
@@ -14,14 +14,15 @@ function Sirviendo() {
 
   useEffect(()=>{
     AOS.init({duration:1000});
+    window.scroll(0,0)
   })
   
   return (
     <div>
     <div data-aos="fade-up"  className="container px-4 py-5" id="featured-3">
-      <h2 className="fw-bold display-5 text-body-emphasis lh-1 mb-3 border-bottom">
+      {/*<h2 className="fw-bold display-5 text-body-emphasis lh-1 mb-3 border-bottom">
         En qué creemos
-      </h2>
+      </h2>*/}
 </div>
       <div className="container-fluid p-4">
       
@@ -38,7 +39,7 @@ function Sirviendo() {
             />
           </div>
           <div className="col-lg-6">
-            <h1 data-aos="fade-up" className="display-5  text-body-emphasis lh-1 mb-3">
+            <h1 data-aos="fade-up" className="display-5  text-primary-emphasis text-opacity-75 lh-1 mb-3 fw-bold">
               Espíritu Santo
             </h1>
             <hr />
@@ -69,7 +70,7 @@ function Sirviendo() {
             />
           </div>
           <div  className="col-lg-6">
-            <h1 data-aos="fade-up" className="display-5  text-body-emphasis lh-1 mb-3">
+            <h1 data-aos="fade-up" className="display-5  text-primary-emphasis text-opacity-75 lh-1 mb-3 fw-bold">
               Humanidad
             </h1>
             <hr />
@@ -98,7 +99,7 @@ function Sirviendo() {
             />
           </div>
           <div className="col-lg-6">
-            <h1 data-aos="fade-up" className="display-5  text-body-emphasis lh-1 mb-3">
+            <h1 data-aos="fade-up" className="display-5  text-primary-emphasis text-opacity-75 lh-1 mb-3 fw-bold">
               Salvación
             </h1>
             <hr />
@@ -118,7 +119,7 @@ function Sirviendo() {
       <div data-aos="fade-up" className="container col-xxl-10 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
           <div  className="col-lg-6">
-            <h1 data-aos="fade-up" className="display-5  text-body-emphasis lh-1 mb-3">
+            <h1 data-aos="fade-up" className="display-5  text-primary-emphasis text-opacity-75 lh-1 mb-3 fw-bold">
               La Biblia
             </h1>
             <hr />
@@ -146,7 +147,7 @@ function Sirviendo() {
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
 
           <div className="col-lg-6">
-            <h1 data-aos="fade-up" className="display-5  text-body-emphasis lh-1 mb-3">
+            <h1 data-aos="fade-up" className="display-5  text-primary-emphasis text-opacity-75 lh-1 mb-3 fw-bold">
               Iglesia
             </h1>
             <hr />
@@ -176,7 +177,7 @@ function Sirviendo() {
       <div data-aos="fade-up" className="container col-xxl-10 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
           <div  className="col-lg-6">
-            <h1 data-aos="fade-up" className="display-5  text-body-emphasis lh-1 mb-3">
+            <h1 data-aos="fade-up" className="display-5  text-primary-emphasis text-opacity-75 lh-1 mb-3 fw-bold">
               Eventos Finales
             </h1>
             <hr />
