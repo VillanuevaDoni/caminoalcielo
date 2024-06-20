@@ -1,7 +1,7 @@
-import Birthday from "../assets/birthday.jpg";
+/* import Birthday from "../assets/birthday.jpg";
 import Bautizo from "../assets/bautizo.jpeg";
 import Camping from "../assets/camping.jpg";
-import Futbol from "../assets/futbol.jpg";
+import Futbol from "../assets/futbol.jpg"; */
 import {format} from "timeago.js";
 import AOS from "aos";
 import {useEffect} from 'react'
@@ -70,7 +70,7 @@ function Listgroup() {
         style={{ overflowY: "scroll", height: 700 }}
       >
         <div id="list-item-1" className="card mb-5">
-          <img src={Birthday} className="card-img-top" alt="birthday" />
+          <img src={""} className="card-img-top" alt="birthday" />
           <div className="card-body">
             <h5 className="card-title">Donovan birthday</h5>
             <p className="card-text">
@@ -84,7 +84,7 @@ function Listgroup() {
           </div>
         </div>
         <div id="list-item-2" className="card mb-5">
-          <img src={Bautizo} className="card-img-top" alt="birthday" />
+          <img src={""} className="card-img-top" alt="birthday" />
           <div className="card-body">
             <h5 className="card-title">Bautizos</h5>
             <p className="card-text">
@@ -96,7 +96,7 @@ function Listgroup() {
           </div>
         </div>
         <div id="list-item-3" className="card mb-5">
-          <img src={Camping} className="card-img-top" alt="birthday" />
+          <img src={""} className="card-img-top" alt="birthday" />
           <div className="card-body">
             <h5 className="card-title">Camping Night</h5>
             <p className="card-text">
@@ -108,7 +108,7 @@ function Listgroup() {
           </div>
         </div>
         <div id="list-item-4" className="card mb-5">
-          <img src={Futbol} className="card-img-top" alt="birthday" />
+          <img src={""} className="card-img-top" alt="birthday" />
           <div className="card-body">
             <h5 className="card-title">Campeonato de Futbol</h5>
             <p className="card-text">
