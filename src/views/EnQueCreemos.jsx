@@ -5,7 +5,7 @@ import {useEffect} from 'react'
 import EspirituSanto from "../assets/espirituSanto.jpg";
 //import ImgQuienesomos from "../assets/quienes somos.jpg";
 import Humanidad from '../assets/Humanidad2.jpg'
-import EventosFinales from '../assets/salvacion.jpg'
+import EventosFinales from '../public/salvacion.jpg'
 import Biblia from '../assets/Biblia.jpg'
 import Salvacion from '../assets/bautizo.jpeg'
 import IglesiaReunion from '../assets/IglesiaReunion.jpg'
