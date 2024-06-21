@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <nav className=" navbar sticky-top navbar-expand-lg navbar-light bg-light py-3 border-bottom border-secondary border-2" >
       <div className="container">
-        <NavLink className="navbar-brand" to="/caminoalcielo">
+        <NavLink className="navbar-brand" to="/">
           {/* <a className="navbar-brand"> */}
             <img
               src={logoIglesia}

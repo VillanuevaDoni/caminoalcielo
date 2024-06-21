@@ -23,7 +23,7 @@ function App() {
       <Navigation />
       <div>
         <Routes>
-          <Route path="/caminoalcielo" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/contacto" element={<Contacto />}/>
           <Route path="/galeria" element={<Galeria />} />
           <Route path="/ministerios" element={<Ministerios />} />
