@@ -29,18 +29,18 @@ export default function Navigation() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item active">
-              <NavLink className="nav-link active" to="/quienesSomos">
+            <li className="nav-item active ">
+              <NavLink className="nav-link" to="/quienesSomos">
                 Quiénes somos
               </NavLink>
             </li>
             <li className="nav-item active">
-              <NavLink className="nav-link active" to="/queCreemos">
+              <NavLink className="nav-link" to="/queCreemos">
                 En qué creemos
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link active" to="/contacto">
+            <li className="nav-item active">
+              <NavLink className="nav-link" to="/contacto">
                 Servicios
               </NavLink>
             </li>
@@ -49,18 +49,18 @@ export default function Navigation() {
                 Noticias
               </NavLink>
             </li>*/}
-            <li className="nav-item">
-              <NavLink className="nav-link active" to="/ministerios">
+            <li className="nav-item active">
+              <NavLink className="nav-link" to="/ministerios">
                 Enseñanzas
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link active" to="/sirviendo">
+            <li className="nav-item active">
+              <NavLink className="nav-link" to="/sirviendo">
                 Contacto
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link active" to="/galeria">
+            <li className="nav-item active">
+              <NavLink className="nav-link" to="/galeria">
                 Galeria
               </NavLink>
             </li>
