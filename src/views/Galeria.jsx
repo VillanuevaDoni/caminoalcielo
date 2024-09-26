@@ -4,6 +4,9 @@ import Church3 from "../public/Church3.jpg";
 import Church4 from "../public/Church4.jpg";
 import Church5 from "../public/Church5.jpg";
 import Church6 from "../public/Church6.jpg";
+import Church7 from "../public/Church7.jpg";
+import Church8 from "../public/Church8.jpg";
+import Church9 from "../public/Church9.jpg";
 
 import Galeriacomp from "../components/Galeriacomp";
 import AOS from "aos";
@@ -24,19 +27,19 @@ function GaleriaChurch() {
       </h2>
       <div data-aos="fade-right" className="row g-4 py-5">
         <div  className="container p-2 col-lg-4">
-          <Galeriacomp Img={Church4} />
+          <Galeriacomp Img={Church1} />
           <Galeriacomp Img={Church2} />
+          <Galeriacomp Img={Church3} />
+        </div>
+        <div data-aos="fade-right" className="container p-2 col-lg-4">
+          <Galeriacomp Img={Church7} />
+          <Galeriacomp Img={Church5} />
           <Galeriacomp Img={Church6} />
         </div>
         <div data-aos="fade-right" className="container p-2 col-lg-4">
-          <Galeriacomp Img={Church1} />
-          <Galeriacomp Img={Church3} />
-          <Galeriacomp Img={Church1} />
-        </div>
-        <div data-aos="fade-right" className="container p-2 col-lg-4">
-          <Galeriacomp Img={Church2} />
-          <Galeriacomp Img={Church5} />
-          <Galeriacomp Img={Church3} />
+          <Galeriacomp Img={Church4} />
+          <Galeriacomp Img={Church8} />
+          <Galeriacomp Img={Church9} />
         </div>
       </div>
     </div>

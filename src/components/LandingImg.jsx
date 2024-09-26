@@ -22,7 +22,7 @@ function LandingImg() {
               <p  className="lead">IGLESIA MINISTERIOS DE JESUCRISTO CAMINO AL CIELO</p>
               <hr className="my-4 text-dark" />
               <p  className="text-dark fs-2">
-              Conocer a Dios, compartir vida, servir a otros.
+              Vivir para Dios, predicar su palabra, servir a otros.
               </p>
               <p className="lead">
                 <Link className="btn btn-primary btn-lg" to="/quienesSomos" role="button">

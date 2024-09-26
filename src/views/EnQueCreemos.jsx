@@ -40,13 +40,13 @@ function Sirviendo() {
           </div>
           <div className="col-lg-6">
             <h1 data-aos="fade-up" className="display-5  text-primary-emphasis text-opacity-75 lh-1 mb-3 fw-bold">
-              Espíritu Santo
+              Fe
             </h1>
             <hr />
             <p data-aos="fade-up" className="lead">
-            El Espíritu Santo es Dios, al igual que el Padre y el Hijo. El Espíritu Santo convence al mundo de pecado, de justicia y de juicio. Él regenera, sella y separa al creyente a una vida santa. En la regeneración, bautiza al creyente en el cuerpo de Cristo y viene para habitarle permanentemente. Provee dones espirituales para la edificación del cuerpo de Cristo.
+            Por Fe recibimos el perdón y la salvación. Dios nos amó tanto que envió a su propio hijo, Jesús, a morir por nosotros. Al poner nuestra Fe en Jesús y creer en él, recibimos el perdón de nuestros pecados y pasamos a tener vida eterna.
 
-            Salmo 139: 7-8; Hechos 1: 8; 5: 3-4; Juan 16: 8; Tito 3: 5; Efesios 4: 11-13; I Corintios 2: 12 
+            Juan 3:16
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Primary</button> */}
@@ -55,36 +55,6 @@ function Sirviendo() {
           </div>
         </div>
       </div>
-
-
-          <div data-aos="fade-up" className="container col-xxl-10 px-4 py-5">
-        <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
-        <div  data-aos="fade-up" className="col-10 col-sm-8 col-lg-6">
-            <img 
-              src={Humanidad}
-              className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
-              alt="en que creemos"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
-          </div>
-          <div  className="col-lg-6">
-            <h1 data-aos="fade-up" className="display-5  text-primary-emphasis text-opacity-75 lh-1 mb-3 fw-bold">
-              Humanidad
-            </h1>
-            <hr />
-            <p data-aos="fade-up" className="lead">
-            La humanidad ha sido hecha a la imagen y semejanza de Dios. Es la creación suprema de Dios. Ha sido creada para vivir eternamente y disfrutar del resto de la creación. Fue diseñada para la alabanza del nombre de Dios, pero por su desobediencia y pecado fue separado de Dios. La reconciliación con Dios ha sido posible por Su gracia y no por méritos propios.
-
-            Génesis 1: 26-27, 31; Efesios 1: 6,12, 14; 2: 8-9; Romanos 3: 23
-            </p>
-            
-          </div>
-         
-        </div>
-      </div> 
-
 
       <div data-aos="fade-up" className="container col-xxl-10 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
@@ -104,9 +74,11 @@ function Sirviendo() {
             </h1>
             <hr />
             <p data-aos="fade-up" className="lead">
-            La salvación es un regalo de Dios para la humanidad. Cuando el hombre cree en Jesús como su Señor y Salvador, Dios ofrece el perdón del pecado, sin la intervención de obras humanas. Ofrece vida eterna con Dios desde el momento de la confesión de pecado.
-            
-            Juan 14: 6; Romanos 5: 1, 8; Gálatas 3: 26; 
+            Es la gracia de Dios, es la libertad de nuestros pecados que Jesús hizo posible al asumir el castigo en la cruz. La salvación nos da nueva vida y también un propósito junto a Dios: compartir las buenas noticias de la gracia de Dios y ser las manos y los pies de Cristo en este mundo, mostrando el amor de Dios a través de nuestras acciones.
+
+            La salvación no es un acontecimiento único, es un proceso. Es el comienzo de un proceso que dura toda la vida y que nos convierte continueamente en las personas que Dios quiere que seamos. La salvación es el don gratuito que Dios nos ofrece. Nuestras vidas, vividas de manera que agraden a Dios, son nuestra ofrenda de agradecimiento a Dios.
+
+            1 Juan 1:9
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Primary</button> */}
@@ -116,32 +88,6 @@ function Sirviendo() {
         </div>
       </div>
 
-      <div data-aos="fade-up" className="container col-xxl-10 px-4 py-5">
-        <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
-          <div  className="col-lg-6">
-            <h1 data-aos="fade-up" className="display-5  text-primary-emphasis text-opacity-75 lh-1 mb-3 fw-bold">
-              La Biblia
-            </h1>
-            <hr />
-            <p data-aos="fade-up" className="lead">
-            La Biblia es la Palabra de Dios para la humanidad. Fue escrita por autores humanos bajo la guía del Espíritu Santo. Es la autoridad suprema y final para doctrina y vida cristiana. Tanto el Antiguo, como el Nuevo Testamento, fueron inspirados por Dios y revelan la persona de Dios, su amor y redención.
-
-            Salmo 119:105; Proverbios 30:5;  2 Timoteo 3:16
-            </p>
-            
-          </div>
-          <div  data-aos="fade-up" className="col-10 col-sm-8 col-lg-6">
-            <img 
-              src={Biblia}
-              className="d-block mx-lg-auto img-fluid rounded-3 shadow-lg"
-              alt="en que creemos"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </div> 
 
       <div data-aos="fade-up" className="container col-xxl-10 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5 rounded-3 ">
@@ -152,9 +98,7 @@ function Sirviendo() {
             </h1>
             <hr />
             <p data-aos="fade-up" className="lead">
-            La Iglesia es el cuerpo de Jesucristo, del cual él es la cabeza. Todo el que ha puesto su fe en Jesús es parte de la Iglesia universal. Las Iglesias locales son expresiones de la Iglesia universal. El bautismo en agua y la Cena del Señor son ordenanzas que la Iglesia practica.
-
-            Filipenses 1:1; Col0senses 1: 18; Hebreos 11: 39 – 40 
+            La iglesia es el cuerpo de Cristo: todas las personas que aceptan el don de la salvación de Cristo y siguen sus enseñanzas. Ser miembro de la iglesia significa que se pertenece a Jesucristo y que se pertenece al pueblo de Dios. La presencia de Cristo es la clave de la vida de la iglesia. Es en la iglesia y a través de ella que Cristo encuentra, llama, transforma, equipa y envía a su pueblo al mundo. Dios se sirve de la iglesia para presentar la salvación a quienes no la conocen y para alimentar la fe de los creyentes. La iglesia es el instrumento de Dios para expresar su compasión y preocupación por el mundo.
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Primary</button> */}
